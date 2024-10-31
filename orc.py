@@ -2,7 +2,7 @@ from cnocr import CnOcr
 import re
 import cv2
 import numpy as np
-from datetime import datetime 
+from datetime import datetime  
 import json
 
 def is_strict_chinese_and_number_with_min_digits(s, min_digits=6):  
